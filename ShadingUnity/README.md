@@ -56,4 +56,4 @@ you will see though that I do have it added and implemented into the scene.
 
 5. This last picture shows the custom skybox I put into the scene along with the directional light that has been rotated to represent the sun's angle from the skybox to the objects.
 This gives off the shadow of the walls and some other objects that you see in the previous images.
-![](lab6/Images/Directional_Light_and_Skybox.png)
+![](Unity_ThreeJS_Projects/ShadingUnity/Images/Directional_Light_and_Skybox.png)
