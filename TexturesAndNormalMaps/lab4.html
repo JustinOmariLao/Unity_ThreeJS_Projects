@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Lab 4: Textures & Normal Maps</title>
+		<style>
+			body { margin: 0; }
+			canvas { display: block; }
+		</style>
+	</head>
+	<body>
+		<script id="vertexShader" type="x-shader/x-vertex">
+		// code for vertex shader
+		varying vec2 vUv;
+		void main() {
+		  vUv = uv;
+		  vec4 modelViewPosition = modelViewMatrix * vec4(position, 1.0);
+		  gl_Position = projectionMatrix * modelViewPosition;
+		}
+		</script>
+
+		<script id="fragmentShader" type="x-shader/x-fragment">
+		// code for fragment shader
+		uniform sampler2D texture2;
+		varying vec2 vUv;
+		
+		void main() {
+			vec4 color0 = texture2D(texture2, vUv * 3.0);
+			gl_FragColor = color0;
+		}
+		</script>
+
+		<script src="../three.js-master/build/three.js"></script>
+		<script>
+			// setup the scene
+      		var scene = new THREE.Scene();
+      		var camera = new THREE.PerspectiveCamera(75, 
+				window.innerWidth/window.innerHeight, 0.1, 1000);
+      		var renderer = new THREE.WebGLRenderer();
+      		renderer.setSize(window.innerWidth, window.innerHeight);
+      		document.body.appendChild(renderer.domElement);
+			camera.position.z = 5;
+			
+			// setup the cube
+			var texture = THREE.ImageUtils.loadTexture("156.jpg");
+			var normMap = THREE.ImageUtils.loadTexture("156_norm.jpg");
+			var geometry = new THREE.BoxGeometry();
+      		var material = new THREE.MeshPhongMaterial({map: texture, normalMap: normMap});
+      		var cube = new THREE.Mesh(geometry, material);
+     		scene.add(cube);
+			
+			material = new THREE.MeshPhongMaterial( { map: texture });
+			var cube2 = new THREE.Mesh(geometry, material);
+			scene.add(cube2);
+			cube2.position.x -= 2;
+			
+			var texture = THREE.ImageUtils.loadTexture("161b.jpg");
+			var normMap = THREE.ImageUtils.loadTexture("161_norm.jpg");
+			var material = new THREE.MeshPhongMaterial({map: texture, normalMap: normMap});
+			var cube3 = new THREE.Mesh(geometry, material);
+			scene.add(cube3);
+			cube3.position.x = 2;
+			
+			var geometry1, material1, mesh1;
+
+			function addNormalMapShaderCube() {
+				if(count == 2) {
+					var uniforms = {texture1: { type: "t", value: 
+						THREE.ImageUtils.loadTexture("161b.jpg")}};
+
+					geometry1 = new THREE.BoxGeometry(1, 1, 1);
+					material1 =  new THREE.ShaderMaterial({
+						uniforms: uniforms,
+						fragmentShader: fshader,
+						vertexShader: vshader,
+						precision: "mediump"});
+
+					mesh1 = new THREE.Mesh(geometry1, material1);
+					mesh1.position.y -= 1.5;
+					mesh1.position.x -= 2;	
+					scene.add(mesh1);
+				}
+			}
+			
+			function addFifthShaderCube() {
+				var uniforms = {texture2: { 
+					type: "t", value:
+						THREE.ImageUtils.loadTexture("176.JPG")}};
+				uniforms.texture2.value.wrapS = THREE.Repeat;
+				uniforms.texture2.value.wrapT = THREE.Repeat;	
+				
+				geometry2 = new THREE.BoxGeometry(1, 1, 1);
+				material2 = new THREE.ShaderMaterial({
+					uniforms: uniforms,
+					vertexShader: document.getElementById('vertexShader').textContent,
+					fragmentShader: document.getElementById('fragmentShader').textContent
+					});
+				mesh2 = new THREE.Mesh(geometry2, material2);
+				mesh2.position.y -= 1.5;	
+				scene.add(mesh2);
+			}
+
+			THREE.Cache.enabled = true;
+			var count = 0;
+			var loader = new THREE.FileLoader();
+			var fshader, vshader;
+			loader.load('shaders/vertexShader.vert',
+				// onLoad callback
+				function (data) {
+					console.log(data); // output the text to the console
+					vshader = data;
+					count += 1;
+					addNormalMapShaderCube(); // we will write this method
+				},
+				// onProgress callback
+				function (xhr) {
+					console.log((xhr.loaded/xhr.total * 100)+ '% loaded');
+				},
+				// onError callback
+				function (err) {
+					console.error('An error happened');
+				});
+
+			loader.load('shaders/fragmentShader.frag',
+				// onLoad callback
+				function (data) {
+					console.log(data); // output the text to the console
+					fshader = data;
+					count += 1;
+					addNormalMapShaderCube(); // we will write this method
+				},
+				// onProgress callback
+				function (xhr) {
+					console.log((xhr.loaded/xhr.total * 100)+ '% loaded');
+				},
+				// onError callback
+				function (err) {
+					console.error('An error happened');
+				});
+			
+			addFifthShaderCube();
+			
+			// add the light
+			var light = new THREE.PointLight(0xffffff, 1, 1000);
+			light.position.set(10, 10, 10);
+			scene.add(light);
+			
+			//Creating an Orbit
+			var orbitRadius = 20; // for example
+			var date;
+			
+			function animate() {
+				requestAnimationFrame(animate);
+				date = Date.now() * 0.0015;
+				light.position.set(Math.cos(date) * orbitRadius, 0, 
+					Math.sin(date) * orbitRadius);
+				renderer.render(scene, camera);
+			}
+			animate();
+
+
+		</script>
+	</body>
+</html>
+

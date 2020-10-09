@@ -1,0 +1,361 @@
+/target:library
+/nowarn:0169
+/out:Temp/Unity.RenderPipelines.Universal.Runtime.dll
+/unsafe
+/debug:portable
+/optimize+
+/nostdlib+
+/preferreduilang:en-US
+/langversion:latest
+/reference:Library/PlayerScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
+/reference:Library/PlayerScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll
+/reference:Library/PlayerScriptAssemblies/UnityEngine.UI.dll
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.AIModule.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.ARModule.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.AccessibilityModule.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.AndroidJNIModule.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.AnimationModule.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.AssetBundleModule.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.AudioModule.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.ClothModule.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.ClusterInputModule.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.ClusterRendererModule.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.CoreModule.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.CrashReportingModule.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.DSPGraphModule.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.DirectorModule.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.GameCenterModule.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.GridModule.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.HotReloadModule.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.IMGUIModule.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.ImageConversionModule.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.InputModule.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.InputLegacyModule.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.JSONSerializeModule.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.LocalizationModule.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.ParticleSystemModule.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.PerformanceReportingModule.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.PhysicsModule.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.Physics2DModule.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.ProfilerModule.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.ScreenCaptureModule.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.SharedInternalsModule.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.SpriteMaskModule.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.SpriteShapeModule.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.StreamingModule.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.SubstanceModule.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.SubsystemsModule.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.TLSModule.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.TerrainModule.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.TerrainPhysicsModule.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.TextCoreModule.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.TextRenderingModule.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.TilemapModule.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.UIModule.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.UIElementsModule.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.UNETModule.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.UmbraModule.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.UnityAnalyticsModule.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.UnityConnectModule.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.UnityTestProtocolModule.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.UnityWebRequestModule.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.UnityWebRequestAudioModule.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.UnityWebRequestTextureModule.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.UnityWebRequestWWWModule.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.VFXModule.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.VRModule.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.VehiclesModule.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.VideoModule.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.WindModule.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/il2cpp/Managed/UnityEngine.XRModule.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Core.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Runtime.Serialization.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.Linq.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.Vectors.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Net.Http.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Microsoft.CSharp.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Data.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/Microsoft.Win32.Primitives.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.AppContext.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Concurrent.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.NonGeneric.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Specialized.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Annotations.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.EventBasedAsync.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Primitives.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.TypeConverter.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Console.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Data.Common.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Contracts.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Debug.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.FileVersionInfo.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Process.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.StackTrace.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TextWriterTraceListener.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Tools.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TraceSource.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Drawing.Primitives.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Dynamic.Runtime.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Calendars.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Extensions.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Compression.ZipFile.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.DriveInfo.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Primitives.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Watcher.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.IsolatedStorage.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.MemoryMappedFiles.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Pipes.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.UnmanagedMemoryStream.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Expressions.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Parallel.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Queryable.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Http.Rtc.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NameResolution.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NetworkInformation.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Ping.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Primitives.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Requests.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Security.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Sockets.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebHeaderCollection.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.Client.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ObjectModel.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.ILGeneration.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.Lightweight.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Extensions.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Primitives.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Reader.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.ResourceManager.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Writer.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.CompilerServices.VisualC.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Extensions.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Handles.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Numerics.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Formatters.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Json.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Primitives.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Xml.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Claims.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Algorithms.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Csp.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Encoding.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Primitives.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.X509Certificates.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Principal.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.SecureString.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Duplex.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Http.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.NetTcp.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Primitives.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Security.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.Extensions.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.RegularExpressions.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Overlapped.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.Parallel.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Thread.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.ThreadPool.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Timer.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ValueTuple.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.ReaderWriter.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XDocument.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlDocument.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlSerializer.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/UnityScript.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/UnityScript.Lang.dll"
+/reference:"D:/GAME DESIGN/2019.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll"
+/define:UNITY_2019_3_12
+/define:UNITY_2019_3
+/define:UNITY_2019
+/define:UNITY_5_3_OR_NEWER
+/define:UNITY_5_4_OR_NEWER
+/define:UNITY_5_5_OR_NEWER
+/define:UNITY_5_6_OR_NEWER
+/define:UNITY_2017_1_OR_NEWER
+/define:UNITY_2017_2_OR_NEWER
+/define:UNITY_2017_3_OR_NEWER
+/define:UNITY_2017_4_OR_NEWER
+/define:UNITY_2018_1_OR_NEWER
+/define:UNITY_2018_2_OR_NEWER
+/define:UNITY_2018_3_OR_NEWER
+/define:UNITY_2018_4_OR_NEWER
+/define:UNITY_2019_1_OR_NEWER
+/define:UNITY_2019_2_OR_NEWER
+/define:UNITY_2019_3_OR_NEWER
+/define:ENABLE_AR
+/define:ENABLE_AUDIO
+/define:ENABLE_CACHING
+/define:ENABLE_CLOTH
+/define:ENABLE_EVENT_QUEUE
+/define:ENABLE_MICROPHONE
+/define:ENABLE_MULTIPLE_DISPLAYS
+/define:ENABLE_PHYSICS
+/define:ENABLE_TEXTURE_STREAMING
+/define:ENABLE_UNET
+/define:ENABLE_LZMA
+/define:ENABLE_UNITYEVENTS
+/define:ENABLE_VR
+/define:ENABLE_WEBCAM
+/define:ENABLE_UNITYWEBREQUEST
+/define:ENABLE_WWW
+/define:ENABLE_CLOUD_SERVICES
+/define:ENABLE_CLOUD_SERVICES_COLLAB
+/define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+/define:ENABLE_CLOUD_SERVICES_ADS
+/define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+/define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+/define:ENABLE_CLOUD_SERVICES_PURCHASING
+/define:ENABLE_CLOUD_SERVICES_ANALYTICS
+/define:ENABLE_CLOUD_SERVICES_UNET
+/define:ENABLE_CLOUD_SERVICES_BUILD
+/define:ENABLE_CLOUD_LICENSE
+/define:ENABLE_EDITOR_HUB_LICENSE
+/define:ENABLE_WEBSOCKET_CLIENT
+/define:ENABLE_DIRECTOR_AUDIO
+/define:ENABLE_DIRECTOR_TEXTURE
+/define:ENABLE_MANAGED_JOBS
+/define:ENABLE_MANAGED_TRANSFORM_JOBS
+/define:ENABLE_MANAGED_ANIMATION_JOBS
+/define:ENABLE_MANAGED_AUDIO_JOBS
+/define:INCLUDE_DYNAMIC_GI
+/define:ENABLE_MONO_BDWGC
+/define:ENABLE_SCRIPTING_GC_WBARRIERS
+/define:PLATFORM_SUPPORTS_MONO
+/define:RENDER_SOFTWARE_CURSOR
+/define:ENABLE_VIDEO
+/define:PLATFORM_STANDALONE
+/define:PLATFORM_STANDALONE_WIN
+/define:UNITY_STANDALONE_WIN
+/define:UNITY_STANDALONE
+/define:ENABLE_RUNTIME_GI
+/define:ENABLE_MOVIES
+/define:ENABLE_NETWORK
+/define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+/define:ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
+/define:ENABLE_CLUSTER_SYNC
+/define:ENABLE_CLUSTERINPUT
+/define:ENABLE_WEBSOCKET_HOST
+/define:ENABLE_IL2CPP
+/define:NET_4_6
+/define:ENABLE_CUSTOM_RENDER_TEXTURE
+/define:ENABLE_DIRECTOR
+/define:ENABLE_LOCALIZATION
+/define:ENABLE_SPRITES
+/define:ENABLE_TERRAIN
+/define:ENABLE_TILEMAP
+/define:ENABLE_TIMELINE
+/define:ENABLE_LEGACY_INPUT_MANAGER
+/define:ENABLE_VR_MODULE
+/define:ENABLE_XR_MODULE
+/define:CSHARP_7_OR_LATER
+/define:CSHARP_7_3_OR_NEWER
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\2D\CinemachineUniversalPixelPerfect.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\2D\CompositeShadowCaster2D.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\2D\Light2D.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\2D\Light2DBlendStyle.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\2D\Light2DPoint.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\2D\Light2DShape.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\2D\Light2DStub.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\2D\LightUtility.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\2D\Passes\Render2DLightingPass.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\2D\Passes\Utility\Light2DLookupTexture.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\2D\Passes\Utility\RendererLighting.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\2D\PixelPerfectCamera.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\2D\PixelPerfectCameraInternal.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\2D\Renderer2D.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\2D\Renderer2DData.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\2D\ShadowCaster2D.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\2D\Shadows\ShadowCasterGroup2D.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\2D\Shadows\ShadowCasterGroup2DManager.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\2D\Shadows\ShadowUtility.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\AssemblyInfo.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\Data\PostProcessData.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\Data\RenderStateData.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\Data\UniversalRenderPipelineAsset.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\Data\UniversalRenderPipelineEditorResources.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\External\LibTessDotNet\Dict.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\External\LibTessDotNet\Geom.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\External\LibTessDotNet\Mesh.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\External\LibTessDotNet\MeshUtils.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\External\LibTessDotNet\PriorityHeap.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\External\LibTessDotNet\PriorityQueue.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\External\LibTessDotNet\Sweep.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\External\LibTessDotNet\Tess.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\ForwardLights.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\ForwardRenderer.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\ForwardRendererData.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\Overrides\Bloom.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\Overrides\ChannelMixer.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\Overrides\ChromaticAberration.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\Overrides\ColorAdjustments.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\Overrides\ColorCurves.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\Overrides\ColorLookup.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\Overrides\DepthOfField.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\Overrides\FilmGrain.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\Overrides\LensDistortion.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\Overrides\LiftGammaGain.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\Overrides\MotionBlur.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\Overrides\PaniniProjection.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\Overrides\ShadowsMidtonesHighlights.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\Overrides\SplitToning.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\Overrides\Tonemapping.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\Overrides\Vignette.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\Overrides\WhiteBalance.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\Passes\AdditionalLightsShadowCasterPass.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\Passes\CapturePass.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\Passes\ColorGradingLutPass.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\Passes\CopyColorPass.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\Passes\CopyDepthPass.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\Passes\DepthOnlyPass.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\Passes\DrawObjectsPass.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\Passes\DrawSkyboxPass.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\Passes\FinalBlitPass.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\Passes\InvokeOnRenderObjectCallbackPass.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\Passes\MainLightShadowCasterPass.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\Passes\PostProcessPass.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\Passes\PostProcessPassCompat.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\Passes\RenderObjectsPass.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\Passes\SceneViewDepthCopy.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\Passes\ScreenSpaceShadowResolvePass.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\Passes\ScriptableRenderPass.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\Passes\TransparentSettingsPass.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\PostProcessUtils.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\RenderTargetHandle.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\RendererFeatures\RenderObjects.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\RenderingUtils.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\SampleCount.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\SceneViewDrawMode.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\ScriptableRenderer.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\ScriptableRendererData.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\ScriptableRendererFeature.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\ShaderData.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\ShaderUtils.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\ShadowUtils.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\UniversalAdditionalCameraData.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\UniversalAdditionalLightData.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\UniversalRenderPipeline.cs"
+"D:\GAME DESIGN\Unity\Unity Games\Lab7\Library\PackageCache\com.unity.render-pipelines.universal@7.3.1\Runtime\UniversalRenderPipelineCore.cs"
